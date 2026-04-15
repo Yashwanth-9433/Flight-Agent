@@ -1,15 +1,15 @@
 import os
 import json
 from datetime import datetime
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 import requests
 import time
 
 # Set API key
-os.environ["OPENAI_API_KEY"] = ""
+os.environ["GOOGLE_API_KEY"] = ""
 
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
 
 today = datetime.today().strftime("%Y-%m-%d (%A)")
 current_year = datetime.today().year

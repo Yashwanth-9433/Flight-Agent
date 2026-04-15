@@ -1,2 +1,5 @@
 ai_env/
 __pycache__/
+flights/out/
+flights/.idea/
+*.iml

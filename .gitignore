@@ -1,7 +1,19 @@
-ai_env/
+# Security (NEVER upload API keys)
+.env
+
+# OS generated files (Mac)
+.DS_Store
+
+# Python Environments & Cache
 __pycache__/
-flights/out/
-flights/.idea/
+ai_env/
+venv/
+
+# Java Spring Boot (Updated for your new folder name)
+SpringBoot-Backend/target/
+SpringBoot-Backend/out/
+
+# IDE files (IntelliJ, VSCode, Eclipse)
+.idea/
 *.iml
-flights/target/
-*.py
+.vscode/

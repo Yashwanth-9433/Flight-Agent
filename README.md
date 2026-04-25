@@ -1,3 +1,4 @@
+
 # Agentic AI Flight Reservation System
 
 This repository contains the source code for an autonomous, conversational flight booking agent. Instead of forcing users through static web forms, this system leverages Large Language Models to parse natural language, manage context, handle missing information via clarification loops, and dynamically execute backend APIs. 
@@ -22,12 +23,32 @@ The system operates across three decoupled layers:
 
 ---
 
+## 📸 The System in Action
+
+Here is the conversational agent dynamically executing backend operations in real-time.
+
+### 1. Dynamic Fallback & Context Management
+When a user requests a timeframe that doesn't exist in the database, the agent doesn't crash or return a raw SQL error. It autonomously intercepts the null result, maintains conversational context, and queries the database for the closest available alternatives.
+
+<img width="711" alt="Smart Fallback Logic" src="https://github.com/user-attachments/assets/5c61b272-9ac1-44fd-b305-466214b4d9c6" />
+
+### 2. Transactional Integrity (Booking & Wallet Provisioning)
+The agent translates natural language into a strict JSON payload to trigger the Java REST APIs. Here, it successfully creates a new user profile, provisions a digital wallet with an initial deposit, and commits the flight booking to the MySQL database in a single seamless flow.
+
+<img width="606" alt="Wallet and Booking Execution" src="https://github.com/user-attachments/assets/a5970646-d989-4fab-95df-3ecc619da27d" />
+
+### 3. Database Mutation & State Reversal
+The system handles booking cancellations by querying the generated Booking ID, reversing the database state, and processing the simulated refund back to the user's wallet.
+
+<img width="535" alt="Cancellation and Refund" src="https://github.com/user-attachments/assets/92e7ca31-90f5-45c4-8633-98d621b409f2" />
+
 ## 🚀 Local Quick Start Guide
 
 Follow these steps to run the code in your system: spin up the database, backend, and AI agent.
 
 ### Prerequisites
 * Java 17+ and Maven
+
 * Python 3.10+
 * MySQL Server running on `localhost:3306`
 

@@ -5,6 +5,8 @@ This repository contains the source code for an autonomous, conversational fligh
 
 🏆 **Published Architecture:** The architecture and methodology behind this project were peer-reviewed and published in the IEEE Xplore Digital Library through the 5th ICMNWC ("Agentic AI for Conversational Flight Reservation Systems"). [View Publication Here](https://ieeexplore.ieee.org/document/11354415).
 
+---
+
 ## 🛠 The Stack
 * **Agent Core:** Python, LangChain, Google Gemini 3 Flash
 * **Backend:** Java, Spring Boot, REST APIs
@@ -41,6 +43,8 @@ The agent translates natural language into a strict JSON payload to trigger the 
 The system handles booking cancellations by querying the generated Booking ID, reversing the database state, and processing the simulated refund back to the user's wallet.
 
 <img width="535" alt="Cancellation and Refund" src="https://github.com/user-attachments/assets/92e7ca31-90f5-45c4-8633-98d621b409f2" />
+
+---
 
 ## 🚀 Local Quick Start Guide
 

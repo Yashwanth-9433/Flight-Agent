@@ -3,7 +3,12 @@
 
 This repository contains the source code for an autonomous, conversational flight booking agent. Instead of forcing users through static web forms, this system leverages Large Language Models to parse natural language, manage context, handle missing information via clarification loops, and dynamically execute backend APIs. 
 
-🏆 **Published Architecture:** The architecture and methodology behind this project were peer-reviewed and published in the IEEE Xplore Digital Library through the 5th ICMNWC ("Agentic AI for Conversational Flight Reservation Systems"). [View Publication Here](https://ieeexplore.ieee.org/document/11354415).
+### 📄 Publications
+
+The architecture and methodology of this project have been peer-reviewed and published in the IEEE Xplore Digital Library through two international IEEE conferences:
+
+- **ICMNWC 2025** – *Agentic AI for Conversational Flight Reservation Systems* ([View Publication](https://ieeexplore.ieee.org/document/11354415))
+- **ICIICS 2026** – *Agentic AI for Conversational Flight Reservation Systems* ([View Publication](https://ieeexplore.ieee.org/document/11483602))
 
 ---
 

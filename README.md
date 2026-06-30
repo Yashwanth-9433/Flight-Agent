@@ -1,5 +1,5 @@
 
-# Agentic AI Flight Reservation System
+# Agentic AI based Conversational Flight Reservation System
 
 This repository contains the source code for an autonomous, conversational flight booking agent. Instead of forcing users through static web forms, this system leverages Large Language Models to parse natural language, manage context, handle missing information via clarification loops, and dynamically execute backend APIs. 
 

@@ -8,7 +8,7 @@ This repository contains the source code for an autonomous, conversational fligh
 The architecture and methodology of this project have been peer-reviewed and published in the IEEE Xplore Digital Library through two international IEEE conferences:
 
 - **ICMNWC 2025** – *Agentic AI for Conversational Flight Reservation Systems* ([View Publication](https://ieeexplore.ieee.org/document/11354415))
-- **ICIICS 2026** – *Agentic AI for Conversational Flight Reservation Systems* ([View Publication](https://ieeexplore.ieee.org/document/11483602))
+- **ICIICS 2026** – *Agentic AI Frameworks: Orchestration Architectures and Autonomous LLM-based Reasoning Systems* ([View Publication](https://ieeexplore.ieee.org/document/11483602))
 
 ---
 
